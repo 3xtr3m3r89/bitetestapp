@@ -1,4 +1,4 @@
-project: sltestnew
+project: bitetestapp
 components:
   - name: node-app
     os: linux
