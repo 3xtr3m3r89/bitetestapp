@@ -1,12 +1,12 @@
-project: sltestnew
+project: bitetestapp
 environments:
   - name: Development
-    namespace: sltestnew-dev
+    namespace: bitetestapp-dev
     deployment:
       method: rolling-upgrade
     services:
       - name: node-app
-        external_url: lmk-sltestnew.dev-bite.io
+        external_url: lmk-bitetestapp.dev-bite.io
         port: 80
         ssl: "false"
         replicas: 1
